@@ -132,9 +132,7 @@ a {
   filter: grayscale(0);
   transition: 0.3s;
 }
-.sobre-img:hover {
-  filter: grayscale(40%);
-}
+
 /*Produtos*/
 .produtos {
   max-width: 960px;
@@ -233,12 +231,14 @@ a {
   display: block;
   margin: 20px auto;
   border: 4px solid;
+  border-radius: 4px;
   color: #222;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 2.25em;
   padding: 15px 0;
   text-align: center;
+  transition: 0.2s;
 }
 .preco-item a:hover {
   color: white;
